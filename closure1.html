@@ -1,0 +1,17 @@
+<script>
+    function fun()
+    {
+        var a="Maina";
+        function innerfun()
+        {
+            return a;
+        }
+        return innerfun;
+    }
+
+      var getfun=fun();
+      document.write(getfun()+"<br>");
+      document.write(getfun()+"<br>");
+      document.write(getfun()+"<br>");
+
+</script>

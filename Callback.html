@@ -1,0 +1,13 @@
+<script>
+    function getdata(x,y,callback)
+    {
+        document.write("multiplication of "+x+" and "+y+" is "+(x*y)+"<br>");
+        callback();
+
+    }
+    function showdata()
+    {
+        document.write("This in Showdata function it will execute after the getdata function");
+    }
+    getdata(20,30,showdata);
+</script>

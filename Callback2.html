@@ -1,0 +1,13 @@
+<script>
+    function showdata(name,amt)
+    {
+     alert("Hello\n"+name+" \n Your enter amount is \n"+amt);
+    }
+    function getdata(callback)
+    {
+        var name= prompt("Enter Your name:");
+        var amt=prompt("Enter Your amount:");
+        callback(name,amt);
+    }
+    getdata(showdata);
+</script>

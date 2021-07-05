@@ -1,0 +1,14 @@
+<script>
+    function fun(a)
+    {
+        function innerfun(b)
+        {
+            return a*b;
+        }
+        return innerfun;
+    }
+     var output=fun(5);
+     document.write(output(4)+"<br>");
+     document.write(output(5)+"<br>");
+     document.write(output(6)+"<br>");
+</script>
